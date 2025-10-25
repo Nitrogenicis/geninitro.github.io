@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+/* Project 2 Blank Bootstrap 5.3 starter template for DESN1021, Web & Time Based Design. <div> tags should be replaced with semantic HTML tags where appropriate  [DESN1021-Pro2#1-7bddd3e6991c22bb4d3432b663b01bd5] DO NOT DELETE THIS COMMENT */
+
+
+/* Custom styles to override and/or add to Bootstrap css */
+
+/* Custom template styles - start here  */
+
+/* Examples of adding to Bootstrap classes with your own classes */
+
+html {
+  font-size: 1rem;
+  /* these control the scroll behaviour */
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+
+}
+
+
+h1 {
+  font-family: "Times New Roman", serif;
+
+}
+
+/* -------------------------------------------------------- */
+/* Custom CSS for highlighting grid examples and options - Not essential to use in your own design.*/
+
+/* add padding to top for fixed nav bar example */
+
+
+/* column highlighting and content spacing */
+.row {
+  margin-bottom: 1rem;
+}
+
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* background-color: rgba(10, 10, 10, .15);*/
+  /* border: 1px solid rgba(86, 61, 255, .2); 
+  border-radius: 1rem; */
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* -------------------------------------------------------- */
+
+/* sets the default rem size for an entire page (for all sizing to be relative to) */
+
+
+
+/* Nav */
+.navbar {
+  background-color: lightblue !important;
+  color: white !important;
+}
+
+.nav-link .navbar-brand {
+
+  color: white;
+  transition: 2s ease-out;
+
+
+}
+
+.nav-link {
+  margin-right: 1rem !important;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 2s ease-in-out;
+
+}
+
+.navbar-brand:hover {
+  border-radius: 100px;
+  color: gray;
+}
+
+/* Scrollspy - customise Nav Link style, you will see change when you scroll down or navigate to content. Source: https://getbootstrap.com/docs/5.3/components/scrollspy/ */
+a.nav-link.active{
+  color:  aliceblue !important;
+  font-size: 20px !important;
+}
+
+/* banner */
+
+.banner {
+  background-image: url();
+  background-size: cover;
+  background-position-y: center;
+}
+
+.banner-title {
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 100px !important;
+}
+
+.banner-text {
+  font-family: 'Kenia', cursive;
+  font-size: 3rem;
+}
+
+/* Custom Styles */
+
+/* Custom background color class (yellow) */
+.custom-bg-yellow {
+  background-color: #ffc107;
+  /* Same as Bootstrap warning color */
+}
+
+/* Custom text color class (red) */
+.custom-text-red {
+  color: #dc3545;
+  /* Same as Bootstrap danger color */
+}
+
+
+/* Examples of customising Bootstrap's media queries at different 'snapping' points - for example, change the size of your browser window and watch the <p> text colour change. Don't EVER change the pixel variables or you will be creating snapping points between Bootstrap's default snapping points - just add your styles in the brackets of the @media queries*/
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  p {
+    color: red;
+  }
+
+  .banner-title{
+    font-size: 5rem;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  p {
+    color: green;
+  }
+
+  .banner-title{
+    font-size: 8rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  p {
+    color: blue;
+  }
+
+  .banner-title{
+    font-size: 10rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  p {
+    color: orange;
+  }
+
+  .banner-title{
+    font-size: 14rem;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p {
+    color: grey;
+  }
+
+  .banner-title{
+    font-size: 18rem;
+  }
+}
+
+/* -------------------------------------------------------- */
+
+
+/* Project 2 Blank Bootstrap 5.3 starter template for DESN1021, Web & Time Based Design. <div> tags should be replaced with semantic HTML tags where appropriate  [DESN1021-Pro2#1-7bddd3e6991c22bb4d3432b663b01bd5] DO NOT DELETE THIS COMMENT */
